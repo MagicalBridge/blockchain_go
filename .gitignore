@@ -1,0 +1,36 @@
+# Vim temporary files
+*.swp
+*.swo
+*.vim
+
+# Ignore build directories
+build/
+vendor/
+
+# Ignore test data
+testdata/
+
+# Ignore IDE project files
+*.idea
+*.iml
+
+# Ignore OS specific files
+Thumbs.db
+DS_Store
+
+# Ignore Mac cache files
+*.DS_Store
+
+# Ignore Windows cache files
+ehthumbs.db
+Desktop.ini
+
+# Ignore compiled Go files
+*.gc
+*.cgo
+*.gofmt
+*.godeps
+
+# Ignore editor backup files
+*~
+# ...
